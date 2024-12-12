@@ -25,9 +25,9 @@ body {
     text-transform: uppercase;
     margin: 0;
     font-family: Tondo Corp;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.01em;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.015em;
     color: #292c31;
     font-weight: bold;
 }
@@ -36,10 +36,10 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: Tondo Corp;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.01em;
+    line-height: 14px;
+    letter-spacing: 0.015em;
     text-align: left;
     gap: 11px;
 }
@@ -91,8 +91,8 @@ body {
     font-family: Tondo Corp;
     font-size: 8px;
     font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.01em;
+    line-height: 14px;
+    letter-spacing: 0.015em;
     text-align: left;
     color: #3e4146;
 }
@@ -123,10 +123,10 @@ td {
 th {
     color: #3e4146;
     font-family: Tondo Corp;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.01em;
+    line-height: 14px;
+    letter-spacing: 0.015em;
     text-align: left;
 }
 
@@ -134,8 +134,8 @@ td {
     font-family: Tondo Corp;
     font-size: 8px;
     font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.01em;
+    line-height: 14px;
+    letter-spacing: 0.015em;
     text-align: left;
 }
 
