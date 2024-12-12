@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+.container {
+    background-color: white;
+    padding: 16px 24px;
+}
+.header {
+    padding: 0px 0 18px 0;
+    margin: 0px 0px 0px;
+    text-align: center;
+    position: relative;
+}
+.header img {
+    position: absolute;
+    left: 0;
+    max-height: 18px;
+    top: 0px;
+}
+.header h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Tondo Corp;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    color: #292c31;
+    font-weight: bold;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Tondo Corp;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    gap: 11px;
+}
+.details div.row {
+    width: 40%;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 234px;
+    text-align: left;
+}
+.details div.row.address {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.details h3 {
+    color: #3e4146;
+    font-size: inherit;
+    margin: 0;
+    font-weight: inherit;
+    font-family: inherit;
+}
+.details img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.details p {
+    margin: 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.footer div {
+    width: 48%;
+}
+.footer img {
+    width: 80px;
+}
+.timestamp {
+    font-family: Tondo Corp;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #3e4146;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 9px;
+}
+
+/* table,
+th,
+td {
+    border: 1px solid #ddd;
+} */
+
+th,
+td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+/* th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+} */
+
+th {
+    color: #3e4146;
+    font-family: Tondo Corp;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+td {
+    font-family: Tondo Corp;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+th:first-child,
+td:first-child {
+    padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+    padding-right: 0;
+}
