@@ -16,7 +16,7 @@ body {
 .header img {
     position: absolute;
     left: 0;
-    max-height: 18px;
+    width: 100px;
     top: 0px;
 }
 .header h2 {
