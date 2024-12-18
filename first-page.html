@@ -3,7 +3,84 @@
 
 <head>
   <title>PassbookFirstPage</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 16px 24px;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 0 18px 0;
+      margin: 0px 0px 0px;
+    }
+
+    .header img {
+      width: 100px;
+      height: auto;
+    }
+
+    .header h2 {
+      text-transform: uppercase;
+      margin: 0;
+      font-family: Tondo Corp;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-family: Tondo Corp;
+      font-size: 11px;
+      font-weight: 400;
+      text-align: left;
+      gap: 11px;
+    }
+
+    .details div.row {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 234px;
+      text-align: left;
+    }
+
+    .details div.row.address {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .details h3 {
+      font-size: inherit;
+      margin: 0;
+      font-weight: inherit;
+      font-family: inherit;
+    }
+
+    .details img {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+
+    .details p {
+      margin: 0;
+    }
+
+  </style>
 </head>
 
 <body>
@@ -11,7 +88,7 @@
     <div class="header">
       <img src="./apbl-logo-red.png" alt="Airtel Payments Bank Logo">
       <h2>Account Details</h2>
-      <img src="" alt=""/>
+      <img src="" alt="" />
     </div>
     <div class="details">
       <div class="row">
